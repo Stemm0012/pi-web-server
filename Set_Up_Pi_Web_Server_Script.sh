@@ -39,6 +39,7 @@ echo "Apache2 restarted."
 
 echo "Web server setup complete."
 
-
+# Notes:
+# Attempted to run script as an executable, pi crashed. 5/22/24
 
 
