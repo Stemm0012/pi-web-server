@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Setup Web Server
 Comment=Script to setup a web server on Raspberry Pi
-Exec=lxterminal -e /Home/Pi/setup_web_server.sh
+Exec=lxterminal -e /Home/Pi/setup_web_server.sh # Enter your file path
 Icon=utilities-terminal
 Terminal=false
 Type=Application
