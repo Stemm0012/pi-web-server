@@ -1,0 +1,71 @@
+body {
+  background-image: url('websprites/background1.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.login-Div {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 3px outset rgb(3, 87, 3);
+  background-color: rgb(155, 247, 155);
+  text-align: left;
+}
+
+.suggestion-div {
+  width: 450px;
+  height: 300px;
+  border: 2px outset #05271b;
+  border-radius: 12px;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.suggestion-div form {
+  display: inline-block;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #00000e;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+/* Style the links inside the navigation left bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #169a6a;
+  color: white;
+}
